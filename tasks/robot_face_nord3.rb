@@ -5,9 +5,15 @@ require_relative "../mixins/turner"
 # A class whose robots know how to sweep a short staircase of beepers
 class RobotFaceNord3 < UrRobot
 
+
+  def turn_right
+  	turn_left
+  	turn_left
+  	turn_left
+  end
+
   def initialize (street, avenue, direction, beepers, color)
       super(street, avenue, direction , beepers, color)
-
 
      end
 

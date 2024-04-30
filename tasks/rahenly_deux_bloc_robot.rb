@@ -5,11 +5,10 @@ require_relative "../mixins/turner"
 # A class whose robots know how to sweep a short staircase of beepers
 class RahenlyDeuxBlocRobot < UrRobot
 
-  def initialize (move)
-      super
-     super
-
-     end
+    def move
+        super
+        super
+    end
 
 
  end

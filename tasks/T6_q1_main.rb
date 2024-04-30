@@ -12,8 +12,7 @@ def task()
   karel = RahenlyDeuxBlocRobot.new(1, 1, Robota::NORTH, 5) 
 
   karel.move
-
-  karel.move 
+  karel.move
 
   end
  

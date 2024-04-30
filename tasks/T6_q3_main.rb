@@ -20,6 +20,7 @@ def task()
   karel5 = RobotFaceNord3.new(1, 6, Robota::NORTH, 0, :blue) 
 
   karel.move
+  kael.mettre_1_beeper
 
   end
  
