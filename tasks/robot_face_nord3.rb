@@ -16,6 +16,12 @@ class RobotFaceNord3 < UrRobot
       super(street, avenue, direction , beepers, color)
 
      end
-
+   def mettre_1_beeper
+  	move
+  	move
+  	move
+  	move
+  	move
+  	put_beeper
 
  end
