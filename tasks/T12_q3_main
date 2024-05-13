@@ -1,0 +1,7 @@
+num1 = rand(0..20) #valeur entre 0 et 20
+num2 = rand(0..20) #valeur entre 0 et 20
+num1 = 6
+num2 = 16
+puts "valeur#{num1}" #valeur de variable num1 est mis dans le string
+puts "valeur#{num2}" #valeur de variable num2 est mis dans le string
+puts "les deux valeurs sont 6 et 16. 16 est la plus grande" #

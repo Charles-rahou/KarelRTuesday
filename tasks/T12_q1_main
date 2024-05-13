@@ -1,0 +1,2 @@
+   num1 = rand(0..20) #valeur entre 0 et 20
+   puts "valeur #{num1}" #la valeur de variable num1 est mis dans le string
