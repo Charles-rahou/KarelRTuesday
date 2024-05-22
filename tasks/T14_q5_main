@@ -1,0 +1,5 @@
+x = rand(0..50)
+puts "donne moi deux valeurs"
+i = gets.chomp.to_i
+puts"donne la somme des deux valeurs"
+i = gets.chomp.to_i

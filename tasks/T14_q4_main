@@ -1,0 +1,3 @@
+x = rand(1..100)
+puts "donne moi une valeur"
+i = gets.chomp.to_i
