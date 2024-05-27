@@ -4,16 +4,15 @@
 
 $graphical = true
 
-require_relative "rahenly_robot14"
+require_relative "rahou_robot4"
 require_relative "../karel/robota"
 
 def task()
 
- karel = RahenlyRobot14.new(2, 2, Robota::NORTH, 5) 
-   karel.commandes
+ karel = RahouRobot4.new(2, 2, Robota::NORTH, 5) 
+   karel.move(5)
+   karel.move
 
- karel2 = RahenlyRobot14.new(2, 2, Robota::NORTH, 5) 
-   karel2.commandes
  end
  
 

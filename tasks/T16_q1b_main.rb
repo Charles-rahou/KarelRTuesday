@@ -4,17 +4,19 @@
 
 $graphical = true
 
-require_relative "rahenly_robot14"
+require_relative "rahenly_robot16"
 require_relative "../karel/robota"
 
 def task()
+  
+world = Robota::World
+ world.read_world("../worlds/toit.kwld")
 
- karel = RahenlyRobot14.new(2, 2, Robota::NORTH, 5) 
-   karel.commandes
+  karel = RahenlyRobot16.new(2,6, Robota::NORTH, INFINITY)
+  karel.aller
+  end 
 
- karel2 = RahenlyRobot14.new(2, 2, Robota::NORTH, 5) 
-   karel2.commandes
- end
+
  
 
 
@@ -27,4 +29,4 @@ if __FILE__ == $0
    else
      task
    end
-end    
+ end    
