@@ -23,5 +23,6 @@ class RobotFaceNord3 < UrRobot
   	move
   	move
   	put_beeper
+  end
 
- end
+  

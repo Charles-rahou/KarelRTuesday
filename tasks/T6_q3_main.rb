@@ -24,8 +24,7 @@ def task()
 
   end
  
-
-
+ 
 if __FILE__ == $0
   if $graphical
      screen = window(8, 40) # (size, speed)
